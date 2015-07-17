@@ -5,7 +5,7 @@ Pulls down API Blueprints from Apiary, parses them, and saves them locally as JS
 ## Install
 
 ```
-> npm install api-blueprint-to-json
+npm install api-blueprint-to-json
 ```
 
 ## Use
@@ -19,7 +19,7 @@ The this model exposes a single method ``process`` which accepts an array of res
 ### Example
 
 
-```
+```javascript
 var resources = [
   {
     url: 'https://api.apiary.io/blueprint/get/myapi',
